@@ -1,0 +1,18 @@
+simpleList = [ "red","green","blue",8,9,10]
+print(simpleList)
+print(type(simpleList))
+print("simpleList[1]=",(simpleList[1]))
+print(type(simpleList[1]))
+print("simpleList[1]=",(simpleList[4]))
+print(type(simpleList[4]))
+print("simpleList[0:3]=",(simpleList[0:3]))
+print("simpleList[3:]=",(simpleList[3:]))
+simpleList[2]="purple"
+print(simpleList)
+print(simpleList[-1])
+simpleList.insert(6,"new value")
+print("New item added in the value", simpleList)
+simpleList.remove("new value")
+print("New item deleted in the value", simpleList)
+simpleList.pop(2)
+print("New item  with index no 2 deleted in the value", simpleList)

@@ -1,0 +1,6 @@
+numberA = float(input("Please input a Number :"))
+numberB = float(input("Please input a Number :"))
+sumAB = (numberA)+ (numberB)
+#sumAB = float(numberA)+ float(numberB)
+#sumAB = int(numberA)+ int(numberB)
+print("A+B:", sumAB)
